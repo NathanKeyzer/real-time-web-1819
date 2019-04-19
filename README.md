@@ -1,60 +1,35 @@
 # Real-Time Web @cmda-minor-web · 2018-2019
+## Concept
 
-During this course you will learn how to build a **meaningful** real-time application. You will learn techniques to setup an open connection between the client and the server. This will enable you to send data in real-time both ways, at the same time.
+Voor mijn concept wil ik de twitter API gaan gebruiken, om data over de aankomende Champions League wedstrijden te krijgen.
 
-## Goals
-- _Deal with real-time complexity_
-- _Handle real-time client-server interaction_
-- _Handle real-time data management_
-- _Handle multi-user support_
+Deze wedstrijden gaan tussen de volgende teams:
 
-[Rubric][rubric]
+- Ajax vs Tottenham
+- Barcelona vs Liverpool
 
-## Curriculum
+Doormiddel van tweets over deze clubs wil ik een tussenstand laten zien van de online strijd. De score die deze clubs krijgen is gebasseerd op het sentiment van de tweets.
 
-### Week 1 - Hello Server
+- Negative
+- Neutral (wordt niet gebruikt)
+- Positive
 
-Goal: Build and deploy a unique barebone real-time app  
+De negative tweet haalt een punt af bij de club en een positieve voegt er een toe. De neutrale tweet heeft hieraan niet veel toevoeging.
 
-[Exercises](https://github.com/cmda-minor-web/real-time-web-1819/blob/master/week-1.md)    
-[Slides](https://docs.google.com/presentation/d/1EVsEFgBnG699nce058ss_PkVJROQXDp5wJJ-IRXvzTA/edit?usp=sharing)  
+De meeste recente positieve tweet word getoond boven het club logo en negatieve eronder.
 
+Ook wil ik aangeven waar de meeste tweets omtrent CL vandaan komen.
 
-### Week 2 - Sharing is caring  
-
-Goal: Store, manipulate and share data between server-client   
-
-[Exercises](https://github.com/cmda-minor-web/real-time-web-1819/blob/master/week-2.md)    
-[Slides](https://docs.google.com/presentation/d/1woKoY59D8Zcttna0FzfNjEtGtT8oXWi9b5LYlukRISM/edit?usp=sharing)
+Waar deze tweets op gevonden worden zijn keywords en # die aansluiten bij de club en de Champions League.
 
 
-### Week 3 - Let’s take this show on the road 
+## Twitter API
 
-Goal: Handle data sharing and multi-user support 
+Ik wil gebruik maken van keywords, #, locatie en sentiment van de tweets
 
-[Exercises](https://github.com/cmda-minor-web/real-time-web-1819/blob/master/week-3.md)  
-[Slides](https://docs.google.com/presentation/d/1SHofRYg87bhdqhv7DQb_HZMbW7Iq1PtqxpdtZHMbMmk/edit?usp=sharing)
+## Schets belangrijke scherm
+![dashboard](https://github.com/NathanKeyzer/real-time-web-1819/blob/master/dashboard.jpeg?raw=true)
 
-> If you're seeing this message on a forked repo, it means one of our students hasn't changed the description yet 😈
+## Twijfels feedback
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- This would be a good place for your data life cycle ♻️-->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
-
-[rubric]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSd1I4ma8R5mtVMyrbp6PA2qEInWiOialK9Fr2orD3afUBqOyvTg_JaQZ6-P4YGURI-eA7PoHT8TRge/pubhtml
+Zou er nog een extra toevoeging kunenn zijn bij dit concept?
